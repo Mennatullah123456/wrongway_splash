@@ -1,0 +1,43 @@
+.settings {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings-header {
+    width: 100%;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.setting-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.setting-label {
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.setting-control {
+    width: 70%;
+    padding: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}

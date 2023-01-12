@@ -1,0 +1,36 @@
+.records {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.records-header {
+    width: 100%;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.highlight {
+    background-color: #e0e0e0;
+}
